@@ -13,4 +13,5 @@ Let see how far I get :)
 * Largest palindrome product: https://projecteuler.net/problem=4
 * Smallest multiple: https://projecteuler.net/problem=5
 * Sum square difference: https://projecteuler.net/problem=6
+* 10001st prime: https://projecteuler.net/problem=7
 
