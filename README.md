@@ -14,4 +14,5 @@ Let see how far I get :)
 * Smallest multiple: https://projecteuler.net/problem=5
 * Sum square difference: https://projecteuler.net/problem=6
 * 10001st prime: https://projecteuler.net/problem=7
+* Largest product in a series: https://projecteuler.net/problem=8
 
