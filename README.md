@@ -15,4 +15,6 @@ Let see how far I get :)
 * Sum square difference: https://projecteuler.net/problem=6
 * 10001st prime: https://projecteuler.net/problem=7
 * Largest product in a series: https://projecteuler.net/problem=8
+* Special pythagorean triplet: https://projecteuler.net/problem=9
+* Summation of primes: https://projecteuler.net/problem=10
 
