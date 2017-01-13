@@ -17,4 +17,5 @@ Let see how far I get :)
 * Largest product in a series: https://projecteuler.net/problem=8
 * Special pythagorean triplet: https://projecteuler.net/problem=9
 * Summation of primes: https://projecteuler.net/problem=10
+* Largest product in a grid: https://projecteuler.net/problem=11
 
