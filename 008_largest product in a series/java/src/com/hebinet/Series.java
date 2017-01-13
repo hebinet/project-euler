@@ -19,18 +19,18 @@ public class Series {
      * @param adjacentDigits
      */
     public void printlargestProduct(int adjacentDigits) {
-        int largestProduct = 0;
+        long largestProduct = 0;
         int[] largestDigits = new int[adjacentDigits];
 
         for (int i = 0; (i + adjacentDigits) < this.input.length; i++) {
-            int currentProduct = 0;
+            long currentProduct = 1;
             int[] currentDigits = new int[adjacentDigits];
 
             for (int j = i; j < (i + adjacentDigits); j++) {
                 int currentDigit = Character.getNumericValue(this.input[j]);
                 currentDigits[j - i] = currentDigit;
 
-                if (currentProduct == 0) {
+                if (j == i) {
                     currentProduct = currentDigit;
                 } else {
                     currentProduct *= currentDigit;
@@ -43,11 +43,23 @@ public class Series {
             }
         }
 
+        this.printDigits(largestDigits, largestProduct);
+    }
+
+    /**
+     * Prints the digits with some boilerplate ;)
+     *
+     * @param digits
+     * @param product
+     */
+    private void printDigits(int[] digits, long product) {
+        System.out.println("Largest product:");
+
         String sep = "";
-        for (int i = 0; i < largestDigits.length; i++) {
-            System.out.print(sep + largestDigits[i]);
-            sep = " x ";
+        for (int i = 0; i < digits.length; i++) {
+            System.out.print(sep + digits[i]);
+            sep = "x";
         }
-        System.out.print(" = " + largestProduct);
+        System.out.print(" = " + product);
     }
 }
