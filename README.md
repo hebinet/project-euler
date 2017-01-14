@@ -20,4 +20,5 @@ Let see how far I get :)
 * Largest product in a grid: https://projecteuler.net/problem=11
 * Highly divisible triangular number: https://projecteuler.net/problem=12
 * Large sum: https://projecteuler.net/problem=13
+* Longest Collatz sequence: https://projecteuler.net/problem=14
 
