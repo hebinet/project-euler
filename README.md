@@ -18,4 +18,5 @@ Let see how far I get :)
 * Special pythagorean triplet: https://projecteuler.net/problem=9
 * Summation of primes: https://projecteuler.net/problem=10
 * Largest product in a grid: https://projecteuler.net/problem=11
+* Highly divisible triangular number: https://projecteuler.net/problem=12
 
